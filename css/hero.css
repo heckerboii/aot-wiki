@@ -1,0 +1,26 @@
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-section .left {
+  width: 35%;
+}
+
+.hero-section .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+.hero-section .right h1 {
+  font-weight: var(--bold-font);
+  margin-bottom: 1rem;
+}
+
+.hero-section .btns {
+  margin-top: 1rem;
+}

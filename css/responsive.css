@@ -1,0 +1,12 @@
+/* ========== Responsive Typography ========== */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem !important;
+    --h2-font-size: 1.25rem !important;
+    --h3-font-size: 1rem !important;
+
+    --normal-font-size: 0.938rem !important;
+    --small-font-size: 0.813rem !important;
+    --smaller-font-size: 0.75rem !important;
+  }
+}

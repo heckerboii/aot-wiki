@@ -1,0 +1,13 @@
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section input {
+  width: 90%;
+}
+
+.search-section .input-wrapper {
+  width: 90%;
+}

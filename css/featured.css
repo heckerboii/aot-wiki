@@ -1,0 +1,32 @@
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featured-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: justify;
+  width: 90%;
+  padding: 2rem 2rem;
+  cursor: pointer;
+  background: var(--body-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  transition: transform 0.5s;
+}
+
+.featured-card:hover {
+  transform: scale(1.025);
+}
+
+.featured-card .side {
+  width: 30%;
+}
+
+.featured-card .img-wrapper {
+  aspect-ratio: 7 / 5;
+}
